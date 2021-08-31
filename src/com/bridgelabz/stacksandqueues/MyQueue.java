@@ -16,9 +16,9 @@ public class MyQueue<K> {
 		linkedList.printNodes();
 	}
 	
-	INode deQueue() {
+	void deQueue() {
 		INode node=linkedList.pop();
-		return node;
+		System.out.println(node.getKey()+" deleted");
 	}
 
 }
