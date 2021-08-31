@@ -2,8 +2,8 @@ package com.bridgelabz.stacksandqueues;
 
 
 public class LinkedList<K> {
-	private INode head;
-	private INode tail;
+	public INode head;
+	public INode tail;
 
 	public LinkedList() {
 		this.head=null;

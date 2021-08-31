@@ -14,4 +14,8 @@ public class MyStack<K> {
 	void printStack() {
 		linkedList.printNodes();
 	}
+	
+	INode peak() {
+		return linkedList.head;
+	}
 }
