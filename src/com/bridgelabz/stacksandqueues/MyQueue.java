@@ -12,6 +12,8 @@ public class MyQueue<K> {
 		linkedList.append(newNode);
 	}
 	
-
+	void printQueue() {
+		linkedList.printNodes();
+	}
 
 }

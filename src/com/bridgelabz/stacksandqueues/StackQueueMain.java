@@ -12,7 +12,7 @@ public class StackQueueMain {
 		myQueue.enqueue(firstNode);
 		myQueue.enqueue(secondNode);
 		myQueue.enqueue(thirdNode);
-		
+		myQueue.printQueue();
 		
 	}
 
