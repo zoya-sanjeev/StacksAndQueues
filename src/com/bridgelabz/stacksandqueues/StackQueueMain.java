@@ -8,15 +8,11 @@ public class StackQueueMain {
 		Node<Integer> secondNode = new Node(30);
 		Node<Integer> thirdNode = new Node(70);
 		
-		MyStack<Integer> myStack=new MyStack<>();
-		myStack.push(firstNode);
-		myStack.push(secondNode);
-		myStack.push(thirdNode);
-		myStack.printStack();
-		INode topOfStack=myStack.peak();
-		System.out.println(topOfStack.getKey());
-		myStack.popAll();
-		myStack.printStack();
+		MyQueue<Integer> myQueue=new MyQueue<>();
+		myQueue.enqueue(firstNode);
+		myQueue.enqueue(secondNode);
+		myQueue.enqueue(thirdNode);
+		
 		
 	}
 
