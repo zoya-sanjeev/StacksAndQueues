@@ -15,5 +15,10 @@ public class MyQueue<K> {
 	void printQueue() {
 		linkedList.printNodes();
 	}
+	
+	INode deQueue() {
+		INode node=linkedList.pop();
+		return node;
+	}
 
 }
