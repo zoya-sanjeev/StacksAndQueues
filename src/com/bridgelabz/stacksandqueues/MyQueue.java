@@ -1,6 +1,6 @@
 package com.bridgelabz.stacksandqueues;
 
-public class MyQueue {
+public class MyQueue<K> {
 	
 	LinkedList linkedList;
 	
@@ -8,6 +8,10 @@ public class MyQueue {
 		linkedList=new LinkedList();
 	}
 	
+	void enqueue(INode newNode) {
+		linkedList.append(newNode);
+	}
 	
+
 
 }
