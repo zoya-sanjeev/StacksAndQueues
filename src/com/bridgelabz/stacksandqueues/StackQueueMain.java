@@ -15,7 +15,8 @@ public class StackQueueMain {
 		myStack.printStack();
 		INode topOfStack=myStack.peak();
 		System.out.println(topOfStack.getKey());
-		
+		myStack.popAll();
+		myStack.printStack();
 		
 	}
 
