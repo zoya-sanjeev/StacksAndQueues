@@ -16,6 +16,7 @@ public class StackQueueMain {
 		INode topOfStack=myStack.peak();
 		System.out.println(topOfStack.getKey());
 		
+		
 	}
 
 }
