@@ -1,5 +1,4 @@
 package com.bridgelabz.stacksandqueues;
-
 	
 public class Node<K> implements INode<K>{
 		
