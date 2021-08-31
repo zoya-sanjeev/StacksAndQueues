@@ -13,6 +13,8 @@ public class StackQueueMain {
 		myStack.push(secondNode);
 		myStack.push(thirdNode);
 		myStack.printStack();
+		INode topOfStack=myStack.peak();
+		System.out.println(topOfStack.getKey());
 		
 	}
 
