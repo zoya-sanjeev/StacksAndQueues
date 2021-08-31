@@ -1,16 +1,13 @@
 package com.bridgelabz.stacksandqueues;
 
-import com.bridgelabz.linkedlist.INode;
-
-public class Node {
 	
-	public class Node<K> implements INode<K>{
+public class Node<K> implements INode<K>{
 		
 
 		private K key;
 		private INode next;
 		
-		public MyNode(K key){
+		public Node(K key){
 			this.key=key;
 			this.next=null;
 			
